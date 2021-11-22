@@ -4,6 +4,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 16.0.31829.152
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VisionQRWeb", "VisionQRWeb\VisionQRWeb.csproj", "{53073EED-2160-4ED3-A496-4B8FD66D5DF1}"
+	ProjectSection(ProjectDependencies) = postProject
+		{1FB34DF0-0A95-4EB6-8753-EFB310C33D55} = {1FB34DF0-0A95-4EB6-8753-EFB310C33D55}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VisionQRService", "VisionQRService\VisionQRService.csproj", "{1FB34DF0-0A95-4EB6-8753-EFB310C33D55}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +20,10 @@ Global
 		{53073EED-2160-4ED3-A496-4B8FD66D5DF1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{53073EED-2160-4ED3-A496-4B8FD66D5DF1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{53073EED-2160-4ED3-A496-4B8FD66D5DF1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1FB34DF0-0A95-4EB6-8753-EFB310C33D55}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1FB34DF0-0A95-4EB6-8753-EFB310C33D55}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1FB34DF0-0A95-4EB6-8753-EFB310C33D55}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1FB34DF0-0A95-4EB6-8753-EFB310C33D55}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
